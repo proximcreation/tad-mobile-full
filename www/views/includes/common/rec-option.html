@@ -1,0 +1,71 @@
+<div
+  class="txt-big txt-c row"
+  ng-class="{
+    'clickable btn-base3 box mt1':parent.hide!==undefined,
+    'strong':parent.hide===undefined
+  }"
+  ng-click="parent.hide = parent.hide !== undefined ? !parent.hide : undefined">
+  <table class="col-12">
+    <tr>
+      <td>
+        <div
+        ng-class="{'col-11 txt-l':parent.hide!==undefined, 'col-12 txt-c':parent.hide===undefined}"
+        marked="typeof(parent.question)==='string'?parent.question:parent.question()"></div>
+      </td>
+      <td class="col-1 txt-r" ng-if="parent.hide!==undefined">
+        <i
+        class="fa fa-lg"
+        ng-class="{
+          'fa-caret-down':parent.hide==true,
+          'fa-caret-up':parent.hide==false
+        }"
+        ></i>
+      </td>
+    </tr>
+  </table>
+</div>
+<!-- <div class="p1 bg-base2 col-12"> -->
+  <div
+  class="row"
+  ng-repeat="o in options"
+  ng-show="!parent.hide || life[o.k]===o.v">
+  <a
+    href=""
+    class="box col-12 lnk-clr mt05"
+    ng-class="{
+      'bg-base3':life[o.k]===o.v,
+      'btn-base1 ':life[o.k]!==o.v
+    }"
+    ng-click="
+    life[o.k] = o.v;
+    parent.hide = parent.hide===false?true:parent.hide
+    "
+    ng-if="
+    o.options === undefined &&
+    (typeof(o.l)==='string'?o.l:o.l())!==''
+    "
+    >
+    <table class="col-12">
+      <tr>
+        <td class="col-2">
+          <span class="fa-stack" ng-class="{'txt-w ':life[o.k]===o.v}">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-circle fa-stack-1x" ng-if="life[o.k]===o.v"></i>
+          </span>
+        </td>
+        <td>
+          <div class="col-10" ng-class="{'txt-w ':life[o.k]===o.v}" marked="typeof(o.l)==='string'?o.l:o.l()"></div>
+        </td>
+      </tr>
+    </table>
+  </a>
+
+  <div
+    ng-include="'views/includes/common/rec-option.html'"
+    ng-if="o.options !== undefined"
+    ng-repeat="options in [o.options]"
+    ng-init="parent = o"
+    ></div>
+  </div>
+
+<!-- </div> -->

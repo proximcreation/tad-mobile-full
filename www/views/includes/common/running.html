@@ -1,0 +1,66 @@
+<div class="content col-12 row">
+  <div
+    ng-if="automaton[life.state].options!==undefined"
+    ng-include="'views/includes/common/rec-option.html'"
+    ng-repeat="options in [automaton[life.state].options]"
+    ng-init="parent = automaton[life.state]"
+    ></div>
+  <div
+    ng-if="automaton[life.state].results!==undefined"
+    ng-include="'views/includes/common/rec-result.html'"
+    ng-repeat="results in [automaton[life.state].results]"
+    ng-init="parent = automaton[life.state]"
+    ></div>
+  <div
+    ng-if="automaton[life.state].inputs!==undefined"
+    ng-include="'views/includes/common/rec-input.html'"
+    ng-repeat="inputs in [automaton[life.state].inputs]"
+    ng-init="parent = automaton[life.state]"
+    ></div>
+
+  <div
+    class="box txt-big {{automaton[life.state].display.cssCls}} col-8 col-ol-2 col-or-2 txt-c mt1 round"
+    ng-if="
+      automaton[life.state].display !== undefined &&
+      automaton[life.state].display.cond()
+    "
+    marked="automaton[life.state].display.getV()">
+  </div>
+
+  <div class="col-12">&nbsp;</div>
+  <div class="input-group col-12 txt-c">
+    <a
+      class="big-btn btn-base1-t btn-left"
+      href=""
+      ng-if="life.previous.length>0"
+      ng-click="life.state = life.previous.pop();">
+      <div class="circle-btn">
+        <i class="fa fa-arrow-left fa-lg"></i>
+      </div>
+      <div class="label"><p>Revenir</p></div>
+    </a>
+    <a
+      class="big-btn btn-warning-t btn-left"
+      href=""
+      ng-if="life.previous.length>0"
+      ng-click="reset()"
+      style="margin-left: 5px">
+      <div class="circle-btn">
+        <i class="fa fa-power-off fa-lg"></i>
+      </div>
+      <div class="label"><p class="txt-c">Reset</p></div>
+    </a>
+
+    <a
+      class="big-btn btn-base3-t btn-right"
+      ng-repeat="s in automaton[life.state].nextStates"
+      ng-if="s.cond()"
+      href=""
+      ng-click="life.previous.push(life.state);life.state = s.id;">
+      <div class="circle-btn">
+        <i class="fa fa-arrow-right fa-lg"></i>
+      </div>
+      <div class="label" marked="s.l"></div>
+    </a>
+  </div>
+</div>

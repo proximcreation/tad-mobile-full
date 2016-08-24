@@ -1,0 +1,46 @@
+<div class="menu-btn abs-tr btn-base3 box clickable" ng-click="life.showMenu=false">
+  <i class="fa fa-remove"></i>
+</div>
+<a href="#/"
+  class="col-12 item lnk-clr" style="display: block;">
+  <i class="fa fa-home"></i>
+</a>
+<div
+  class="col-12 item"
+  ng-click="reset()">
+  <i class="fa fa-power-off"></i>&nbsp;Recommencer
+</div>
+<div
+  class="col-12 item"
+  ng-click="
+    life.modal = {
+      title:'À propos',
+      content:
+        'Copyright © 2016\n\n'+
+        'La reproduction, même partielle, de tout texte ou image présents sur '+
+        'cette application est interdite sans accord préalable\n\n'+
+        ' - **Version :** 0.9.0\n'+
+        ' - **Auteur :** Anne-Laure CHEVRIN\n\nMédecin urgentiste / alsancerni@hotmail.fr\n'+
+        ' - **Développeur :** Louis PERRIN\n\nProximCréation / louis.perrin@gmail.com\n',
+      validate:'Fermer'
+    };
+    life.showMenu=false">
+  <i class="fa fa-question"></i>&nbsp;À propos
+</div>
+<div
+  class="col-12 item"
+  ng-click="
+    life.modal = {
+      title:'Information',
+      content:
+        '**Cette application ne contient pas d’expertise médicale et ne se'+
+        'substitue pas à l’analyse clinique et l’expertise professionnelle.**\n\n'+
+        'TODO.\n\n'+
+        '<h4><center>Biblio<center></h4>'+
+        '\n'+
+        ' - TODO',
+      validate:'J’ai compris'
+    };
+    life.showMenu=false">
+  <i class="fa fa-exclamation"></i>&nbsp;Information
+</div>
