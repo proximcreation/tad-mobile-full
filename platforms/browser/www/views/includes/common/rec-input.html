@@ -1,0 +1,49 @@
+<div
+  class="txt-big txt-c row"
+  ng-class="{
+    'clickable btn-base3 box mt1':parent.hide!==undefined,
+    'strong':parent.hide===undefined
+  }"
+  ng-click="parent.hide = parent.hide !== undefined ? !parent.hide : undefined">
+  <table class="col-12">
+    <tr>
+      <td>
+        <div
+        ng-class="{'col-11 txt-l':parent.hide!==undefined, 'col-12 txt-c':parent.hide===undefined}"
+        marked="typeof(parent.question)==='string'?parent.question:parent.question()"></div>
+      </td>
+      <td class="col-1 txt-r" ng-if="parent.hide!==undefined">
+        <i
+        class="fa fa-lg"
+        ng-class="{
+          'fa-caret-down':parent.hide==true,
+          'fa-caret-up':parent.hide==false
+        }"
+        ></i>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div
+  class="row"
+  ng-repeat="i in inputs"
+  ng-show="!parent.hide">
+  <div class="input-group btn-base1 box">
+    <table class="col-12">
+      <tr>
+        <td class="col-2">
+          <i class="fa fa-keyboard-o fa-2x"></i>
+        </td>
+        <td>
+          {{i.l}}
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input class="col-12 txt-c input-big" type="{{i.t}}" ng-model="life[i.k]" ng-change="i.c()">
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

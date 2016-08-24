@@ -1,0 +1,35 @@
+<!-- <a href="" class="btn-info btn fr" ng-click="life.state = -1" ng-if="life.state >= 0"><i class="fa fa-remove"></i></a> -->
+<header class="row">
+  <h1 class="col-10"><i class="fa fa-user-md"></i>&nbsp;Intervention pédiatrique : Fiche Mémo</h1>
+  <div class="menu-btn fr btn-base3 box clickable" ng-click="life.showMenu=true">
+    <i class="fa fa-bars"></i>
+  </div>
+</header>
+<div class="max-col-6" ng-include="'views/includes/memo-pedia/intro.html'" ng-if="life.state == -1"></div>
+<div class="max-col-6" ng-include="'views/includes/common/running.html'" ng-if="life.state >= 0"></div>
+<div class="fix-tr col-6 fixed-menu" ng-include="'views/includes/memo-pedia/menu.html'" ng-if="life.showMenu"></div>
+<div class="fix-hv col-9 modal" ng-if="life.modal!==undefined">
+  <!-- <div class="menu-btn abs-tr btn-base3 box clickable" ng-click="life.modal=undefined">
+    <i class="fa fa-remove"></i>
+  </div> -->
+  <div class="box col-12">
+    <h4 class="txt-b txt-c">{{life.modal.title}}</h4>
+    <div marked="life.modal.content"></div>
+    <br>
+    <div
+      class="btn-base3 txt-c box clickable"
+      ng-if="life.modal.validate"
+      ng-click="life.modal=undefined">
+      {{life.modal.validate}}
+    </div>
+  </div>
+</div>
+<!-- <div class="col-12 box2 bg-base1">
+  <p class="col-12">{{life}}</p>
+  <ul class="col-12">
+    <li
+      ng-repeat="s in automaton[life.state].nextStates">
+      {{s.id}} : [{{s.cond()}}]
+    </li>
+  </ul>
+</div> -->

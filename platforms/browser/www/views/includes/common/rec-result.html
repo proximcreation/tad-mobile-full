@@ -1,0 +1,63 @@
+<div
+  class="txt-big txt-c row"
+  ng-class="{
+    'clickable btn-base3 box mt1':parent.hide!==undefined,
+    'strong':parent.hide===undefined
+  }"
+  ng-click="parent.hide = parent.hide !== undefined ? !parent.hide : undefined">
+  <table class="col-12">
+    <tr>
+      <td>
+        <div
+        ng-class="{'col-11 txt-l':parent.hide!==undefined, 'col-12 txt-c':parent.hide===undefined}"
+        marked="typeof(parent.question)==='string'?parent.question:parent.question()"></div>
+      </td>
+      <td class="col-1 txt-r" ng-if="parent.hide!==undefined">
+        <i
+        class="fa fa-lg"
+        ng-class="{
+          'fa-caret-down':parent.hide==true,
+          'fa-caret-up':parent.hide==false
+        }"
+        ></i>
+      </td>
+    </tr>
+  </table>
+</div>
+<!-- <div class="p1 bg-base2 col-12"> -->
+  <div
+  class="row"
+  ng-repeat="o in results"
+  ng-show="!parent.hide || life[o.k]===o.v">
+  <div
+    class="box col-12 bg-base3 mt05"
+    ng-click="
+    parent.hide = parent.hide===false?true:parent.hide
+    "
+    ng-if="
+    o.results === undefined &&
+    (typeof(o.l)==='string'?o.l:o.l())!=='' &&
+    o.if() !== false
+    "
+    >
+    <table class="col-12">
+      <tr>
+        <td class="col-4" valign="top" style="font-weight: bold;">
+          <div marked="typeof(o.l)==='string'?o.l:o.l()"></div>
+        </td>
+        <td  class="col-8 txt-w" valign="top">
+          <div marked="typeof(o.v)==='string'?o.v:o.v()">{{o.v}}</div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div
+    ng-include="'views/includes/common/rec-result.html'"
+    ng-if="o.results !== undefined"
+    ng-repeat="results in [o.results]"
+    ng-init="parent = o"
+    ></div>
+  </div>
+
+<!-- </div> -->
