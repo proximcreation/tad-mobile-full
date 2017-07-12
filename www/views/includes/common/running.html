@@ -1,4 +1,4 @@
-<div class="content col-12 row">
+<div class="content col-12 row" ng-if="life.img===undefined">
   <div
     ng-if="automaton[life.state].options!==undefined"
     ng-include="'views/includes/common/rec-option.html'"
@@ -63,4 +63,17 @@
       <div class="label" marked="s.l"></div>
     </a>
   </div>
+</div>
+<div class="abs-tl txt-c bgw p1" ng-if="life.img!==undefined">
+  <br><br><br>
+  <img ng-src="img/{{life.img}}" alt="">
+  <a
+    class="big-btn btn-base3-t fix-br"
+    href=""
+    ng-click="life.img=undefined">
+    <div class="circle-btn">
+      <i class="fa fa-arrow-left fa-lg"></i>
+    </div>
+    <div class="label"><p>Revenir</p></div>
+  </a>
 </div>

@@ -32,9 +32,6 @@
   ng-show="!parent.hide || life[o.k]===o.v">
   <div
     class="box col-12 bg-base3 mt05"
-    ng-click="
-    parent.hide = parent.hide===false?true:parent.hide
-    "
     ng-if="
     o.results === undefined &&
     (typeof(o.l)==='string'?o.l:o.l())!=='' &&
@@ -44,7 +41,7 @@
     <table class="col-12">
       <tr>
         <td class="col-4" valign="top" style="font-weight: bold;">
-          <div marked="typeof(o.l)==='string'?o.l:o.l()"></div>
+          <div class="{{o.cls}}" marked="typeof(o.l)==='string'?o.l:o.l()"></div>
         </td>
         <td  class="col-8 txt-w" valign="top">
           <div marked="typeof(o.v)==='string'?o.v:o.v()">{{o.v}}</div>
