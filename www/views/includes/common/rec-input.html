@@ -28,8 +28,95 @@
 <div
   class="row"
   ng-repeat="i in inputs"
-  ng-show="!parent.hide">
-  <div class="input-group btn-base1 box">
+  ng-show="!parent.hide"
+  ng-if="i.cond===undefined || i.cond()"
+  ng-switch on="i.t">
+  
+  <!-- CHECKBOX -->
+  <div class="input-group" ng-switch-when="checkbox">
+    <input type="checkbox" ng-model="life[i.k]" ng-change="i.c()" id="{{i.k}}"><label class="btn-base1 box" for="{{i.k}}">{{i.l}}</label>
+  </div>
+  
+  <!-- WALLAS -->
+  <div class="input-group relative bgw" style="border-bottom: solid 3px #3a866d" ng-switch-when="wallas">
+    <div class="abs-tl" style="width:50px">
+      <a
+        class="big-btn btn-base3-t btn-left"
+        href=""
+        ng-click="life.turn = !life.turn"
+        style="margin-left: 5px">
+        <div class="circle-btn">
+          <i class="fa fa-undo fa-lg"></i>
+        </div>
+      </a>
+      <a
+        class="big-btn btn-base3-t btn-left"
+        href=""
+        ng-click="life.e = !life.e"
+        style="margin-left: 5px">
+        <div class="circle-btn">
+          <i class="fa fa-user" ng-class="{'fa-2x':life.e}"></i>
+        </div>
+      </a>
+    </div>
+    <div class="centered-h"><strong class="txt-c">{{life.e?'Enfant':'Adulte'}} de {{!life.turn?'Face':'Dos'}}</strong></div>
+    <!-- <div
+      class="box txt-warning round txt-c abs-tr txt-w"
+      ng-class="{'bg-success': life.wallace<=10, 'bg-warning': life.wallace>10&&life.wallace<=20, 'bg-danger': life.wallace>20}"
+      style="right: 5px; top:5px">
+      SCORE <br>
+      <strong class=" txt-big">{{life.wallace}}%</strong> <hr ng-if="life.wallace>10">{{life.wallace>10?(life.wallace>20?'Brulé grave':'Brulé'):''}}
+    </div> -->
+    <div class=" abs-tr" style="right: 5px; top:10px">
+      
+      <div
+        class="box txt-warning round txt-c txt-w"
+        ng-class="{'bg-success': life.wallace<=10, 'bg-warning': life.wallace>10&&life.wallace<=20, 'bg-danger': life.wallace>20}">
+        SCORE <br>
+        <strong class=" txt-big">{{life.wallace}}%</strong> <hr style="border-color: #fff" ng-if="life.wallace>10">{{life.wallace>10?(life.wallace>20?'Brulé grave':'Brulé'):''}}
+        <div ng-if="life.poid!==undefined">
+          <hr style="border-color: #fff">Sc = {{dec((4*life.poid+7)/(90+life.poid), 1000)}} m²
+          <br><strong class="txt-danger">Sb = {{dec((4*life.poid+7)/(90+life.poid)*life.wallace/100, 1000)}} m²</strong>
+        </div>
+      </div>
+    </div>
+    <a
+      class="big-btn btn-warning-t btn-left abs-bl"
+      href=""
+      ng-click="clear()"
+      style="margin-left: 5px">
+      <div class="circle-btn">
+        <i class="fa fa-power-off fa-lg"></i>
+      </div>
+      <div class="label"><p class="txt-c">Reset</p></div>
+    </a>
+    <!-- <a
+      class="big-btn btn-base3-t btn-right abs-br"
+      href=""
+      ng-click="life.remp = !life.remp"
+      style="margin-left: 5px">
+      <div class="circle-btn">
+        <i class="fa fa-arrow-right fa-lg"></i>
+      </div>
+      <div class="label"><p class="txt-c">Remplissage</p></div>
+    </a> -->
+    
+    <svg class="w80" viewBox="0 0 200 515" ng-if="!life.turn && !life.e">
+      <use ng-repeat="(k,p) in wallasTab.face" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/face.svg#{{k}}"></use>
+    </svg>
+    <svg class="w80" viewBox="0 0 200 515" ng-if="life.turn && !life.e">
+      <use ng-repeat="(k,p) in wallasTab.dos" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/dos.svg#{{k}}"></use>
+    </svg>
+    <svg class="w80" viewBox="0 0 200 515" ng-if="!life.turn && life.e">
+      <use ng-repeat="(k,p) in wallasTab.face" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/face-enfant-cplx.svg#{{k}}"></use>
+    </svg>
+    <svg class="w80" viewBox="0 0 200 515" ng-if="life.turn && life.e">
+      <use ng-repeat="(k,p) in wallasTab.dos" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/dos-enfant-cplx.svg#{{k}}"></use>
+    </svg>
+  </div>
+  
+  <!-- DEFAULT -->
+  <div class="input-group btn-base1 box" ng-switch-default>
     <table class="col-12">
       <tr>
         <td class="col-2">

@@ -1,7 +1,7 @@
 <div class="menu-btn abs-tr btn-base3 box clickable" ng-click="life.showMenu=false">
   <i class="fa fa-remove"></i>
 </div>
-<a href="#/"
+<a href="#!/"
   class="col-12 item lnk-clr" style="display: block;">
   <i class="fa fa-home"></i>
 </a>
@@ -16,10 +16,10 @@
     life.modal = {
       title:'À propos',
       content:
-        'Copyright © 2016\n\n'+
+        'Copyright © '+global.copyright+'\n\n'+
         'La reproduction, même partielle, de tout texte ou image présents sur '+
         'cette application est interdite sans accord préalable\n\n'+
-        ' - **Version :** 0.9.0\n'+
+        ' - **Version :** '+global.version+'\n'+
         ' - **Auteur :** Anne-Laure CHEVRIN\n\nMédecin urgentiste / alsancerni@hotmail.fr\n'+
         ' - **Développeur :** Louis PERRIN\n\nProximCréation / louis.perrin@gmail.com\n',
       validate:'Fermer'
@@ -35,10 +35,17 @@
       content:
         '**Cette application ne contient pas d’expertise médicale et ne se'+
         'substitue pas à l’analyse clinique et l’expertise professionnelle.**\n\n'+
-        'TODO.\n\n'+
         '<h4><center>Biblio<center></h4>'+
         '\n'+
-        ' - TODO',
+        ' - Simons et al. World Allergy Organization Journal (2015)<br>'+
+        'DOI 10.1186/s40413-015-0080-1\n\n'+
+        ' - Recognition and First-Line Treatment of Anaphylaxis<br>'+
+        'Phillip L. Lieberman, MD, FAAAAI, FACAAI (University of Tennessee College of Medicine, Germantown, Tenn.)<br>'+
+        'The American Journal of Medicine, Vol 127, No 1A, Jan 2014\n\n'+
+        ' - Anaphylaxis and cardiovascular disease: therapeutic dilemmas<br>'+
+        'P. Lieberman *(Departments of Internal Medicine and Pediatrics (Divisions of Allergy and Immunology), University of Tennessee College of Medicine, Germantown, TN, USA)*<br>'+
+        'F. E. R. Simons *(Department of Pediatrics and Child Health and Department of Immunology, Faculty of Medicine, University of Manitoba, Winnipeg, MB, Canada)*<br>'+
+        'doi: 10.1111/cea.12520 - Clinical & Experimental Allergy, 45, 1288–1295\n\n',
       validate:'J’ai compris'
     };
     life.showMenu=false">

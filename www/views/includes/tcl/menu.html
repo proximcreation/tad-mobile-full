@@ -1,7 +1,7 @@
 <div class="menu-btn abs-tr btn-base3 box clickable" ng-click="life.showMenu=false">
   <i class="fa fa-remove"></i>
 </div>
-<a href="#/"
+<a href="#!/"
   class="col-12 item lnk-clr" style="display: block;">
   <i class="fa fa-home"></i>
 </a>
@@ -16,10 +16,10 @@
     life.modal = {
       title:'À propos',
       content:
-        'Copyright © 2016\n\n'+
+        'Copyright © '+global.copyright+'\n\n'+
         'La reproduction, même partielle, de tout texte ou image présents sur '+
         'cette application est interdite sans accord préalable\n\n'+
-        ' - **Version :** 1.9.0\n'+
+        ' - **Version :** '+global.version+'\n'+
         ' - **Auteur :** Rachid CHOUGAR\n\nMédecin urgentiste / rchoug@free.fr\n'+
         ' - **Développeur :** Louis PERRIN\n\nProximCréation / louis.perrin@gmail.com\n',
       validate:'Fermer'

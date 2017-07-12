@@ -6,22 +6,42 @@
     <p>assistant de diagnostic</p>
     <hr class="col-6 col-ol-3 col-or-3">
     <div class="col-12">&nbsp;</div>
+    <h3 class="box col-12">Pédiatrie</h3>
+    <div  ng-if="!freeversion" class="box col-12 txt-w">
+      <a
+        class=" col-ol-2 col-or-2 col-8 lnk-clr btn-base1 box round"
+        href="#!/memo-pedia">Mémo pédiatrique</a>
+    </div>
+    
+    
+    <h3 class="box col-12">Adulte</h3>
     <div class="box col-12 txt-w">
       <a
       class=" col-ol-2 col-or-2 col-8 lnk-clr btn-base3 box round"
-      href="#/tcl">Traumatisme crânien léger</a>
+      href="#!/tcl">Traumatisme crânien léger : Score de Glasgow</a>
 
     </div>
     <div  ng-if="!freeversion" class="box col-12 txt-w">
       <a
       class=" col-ol-2 col-or-2 col-8 lnk-clr btn-base3 box round"
-      href="#/memo-pedia">Mémo pédiatrique</a>
+      href="#!/nihss">AVC : Score NIHSS</a>
 
+    </div>
+    <div  ng-if="!freeversion" class="box col-12 txt-w">
+      <a
+      class=" col-ol-2 col-or-2 col-8 lnk-clr btn-base3 box round"
+      href="#!/wells">Phlébite : Score de WELLS (simplifié)</a>
+
+    </div>
+    <div  ng-if="!freeversion" class="box col-12 txt-w">
+      <a
+      class=" col-ol-2 col-or-2 col-8 lnk-clr btn-base3 box round"
+      href="#!/wallas">Grands brulés : Table de Wallas</a>
     </div>
     <div class="box col-12">
       <a
       class=" col-ol-2 col-or-2 col-8 lnk-clr btn-base2 box round"
-      href="#/">D’autres outils bientôt...</a>
+      href="#!/">D’autres outils bientôt...</a>
 
     </div>
   </div>

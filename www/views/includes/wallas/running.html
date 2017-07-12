@@ -1,0 +1,205 @@
+<div class="content col-12 row bgw">
+  <!-- <p class="txt-c">Cliquer sur les partie brulées</p> -->
+  <div class="col-12 relative" ng-if="!life.remp">
+    <div class="abs-tl" style="width:50px">
+      <a
+        class="big-btn btn-base3-t btn-left"
+        href=""
+        ng-click="life.turn = !life.turn"
+        style="margin-left: 5px">
+        <div class="circle-btn">
+          <i class="fa fa-undo fa-lg"></i>
+        </div>
+      </a>
+      <a
+        class="big-btn btn-base3-t btn-left"
+        href=""
+        ng-click="life.e = !life.e"
+        style="margin-left: 5px">
+        <div class="circle-btn">
+          <i class="fa fa-user" ng-class="{'fa-2x':life.e}"></i>
+        </div>
+      </a>
+    </div>
+    <div class="centered-h"><strong class="txt-c">{{life.e?'Enfant':'Adulte'}} de {{!life.turn?'Face':'Dos'}}</strong></div>
+    <!-- <div class="label"><p class="txt-c">{{life.e?'Enfant':'Adulte'}}</p></div> -->
+    <!-- <div class="abs-tl">
+      <button ng-click="life.turn = !life.turn" class="txt-c txt-big round btn-big"><i class="fa fa-undo fa-lg"></i></button>
+      <strong class="txt-big">{{!life.turn?'Face':'Dos'}}</strong>
+    </div> -->
+    <div class="box txt-warning round txt-c abs-tr txt-w" ng-class="{'bg-success': life.wallace<=10, 'bg-warning': life.wallace>10&&life.wallace<=20, 'bg-danger': life.wallace>20}">
+      SCORE <br>
+      <strong class=" txt-big">{{life.wallace}}%</strong> <hr ng-if="life.wallace>10">{{life.wallace>10?(life.wallace>20?'Brulé grave':'Brulé'):''}}
+    </div>
+    <a
+      class="big-btn btn-warning-t btn-left abs-bl"
+      href=""
+      ng-click="clear()"
+      style="margin-left: 5px">
+      <div class="circle-btn">
+        <i class="fa fa-power-off fa-lg"></i>
+      </div>
+      <div class="label"><p class="txt-c">Reset</p></div>
+    </a>
+    <a
+      class="big-btn btn-base3-t btn-right abs-br"
+      href=""
+      ng-click="life.remp = !life.remp"
+      style="margin-left: 5px">
+      <div class="circle-btn">
+        <i class="fa fa-arrow-right fa-lg"></i>
+      </div>
+      <div class="label"><p class="txt-c">Remplissage</p></div>
+    </a>
+    
+    <svg class="w80" viewBox="0 0 200 515" ng-if="!life.turn && !life.e">
+      <use ng-repeat="(k,p) in wallasTab.face" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/face.svg#{{k}}"></use>
+    </svg>
+    <svg class="w80" viewBox="0 0 200 515" ng-if="life.turn && !life.e">
+      <use ng-repeat="(k,p) in wallasTab.dos" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/dos.svg#{{k}}"></use>
+    </svg>
+    <svg class="w80" viewBox="0 0 200 515" ng-if="!life.turn && life.e">
+      <use ng-repeat="(k,p) in wallasTab.face" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/face-enfant.svg#{{k}}"></use>
+    </svg>
+
+    <svg class="w80" viewBox="0 0 200 515" ng-if="life.turn && life.e">
+      <use ng-repeat="(k,p) in wallasTab.dos" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/dos-enfant.svg#{{k}}"></use>
+    </svg>
+    
+    <!-- <svg class="w80" viewBox="0 0 200 515" ng-if="!life.turn && !life.e">
+      <use ng-class="{burned:map.face_tete}" ng-click="map.face_tete = !map.face_tete" xlink:href="img/face.svg#face_tete"></use>
+      <use ng-class="{burned:map.thorax}" ng-click="map.thorax = !map.thorax" xlink:href="img/face.svg#face_thorax"></use>
+      <use ng-class="{burned:map.abdomen}" ng-click="map.abdomen = !map.abdomen" xlink:href="img/face.svg#face_abdomen"></use>
+      <use ng-class="{burned:map.genital}" ng-click="map.genital = !map.genital" xlink:href="img/face.svg#face_genital"></use>
+      <use ng-class="{burned:map.face_bras_g}" ng-click="map.face_bras_g = !map.face_bras_g" xlink:href="img/face.svg#face_bras_g"></use>
+      <use ng-class="{burned:map.face_bras_d}" ng-click="map.face_bras_d = !map.face_bras_d" xlink:href="img/face.svg#face_bras_d"></use>
+      <use ng-class="{burned:map.face_cuisse_g}" ng-click="map.face_cuisse_g = !map.face_cuisse_g" xlink:href="img/face.svg#face_cuisse_g"></use>
+      <use ng-class="{burned:map.face_tibia_g}" ng-click="map.face_tibia_g = !map.face_tibia_g" xlink:href="img/face.svg#face_tibia_g"></use>
+      <use ng-class="{burned:map.face_cuisse_d}" ng-click="map.face_cuisse_d = !map.face_cuisse_d" xlink:href="img/face.svg#face_cuisse_d"></use>
+      <use ng-class="{burned:map.face_tibia_d}" ng-click="map.face_tibia_d = !map.face_tibia_d" xlink:href="img/face.svg#face_tibia_d"></use>
+    </svg>
+    <svg class="w80" viewBox="0 0 200 515" ng-if="life.turn && !life.e">
+      <use ng-class="{burned:map.dos_tete}" ng-click="map.dos_tete = !map.dos_tete" xlink:href="img/dos.svg#dos_tete"></use>
+      <use ng-class="{burned:map.dos_haut}" ng-click="map.dos_haut = !map.dos_haut" xlink:href="img/dos.svg#dos_haut"></use>
+      <use ng-class="{burned:map.dos_bas}" ng-click="map.dos_bas = !map.dos_bas" xlink:href="img/dos.svg#dos_bas"></use>
+      <use ng-class="{burned:map.dos_bras_g}" ng-click="map.dos_bras_g = !map.dos_bras_g" xlink:href="img/dos.svg#dos_bras_g"></use>
+      <use ng-class="{burned:map.dos_bras_d}" ng-click="map.dos_bras_d = !map.dos_bras_d" xlink:href="img/dos.svg#dos_bras_d"></use>
+      <use ng-class="{burned:map.dos_cuisse_g}" ng-click="map.dos_cuisse_g = !map.dos_cuisse_g" xlink:href="img/dos.svg#dos_cuisse_g"></use>
+      <use ng-class="{burned:map.dos_tibia_g}" ng-click="map.dos_tibia_g = !map.dos_tibia_g" xlink:href="img/dos.svg#dos_tibia_g"></use>
+      <use ng-class="{burned:map.dos_cuisse_d}" ng-click="map.dos_cuisse_d = !map.dos_cuisse_d" xlink:href="img/dos.svg#dos_cuisse_d"></use>
+      <use ng-class="{burned:map.dos_tibia_d}" ng-click="map.dos_tibia_d = !map.dos_tibia_d" xlink:href="img/dos.svg#dos_tibia_d"></use>
+    </svg>
+    
+    <svg class="w80" viewBox="0 0 200 515" ng-if="!life.turn && life.e">
+      <use ng-class="{burned:map.face_tete}" ng-click="map.face_tete = !map.face_tete" xlink:href="img/face-enfant.svg#face_tete"></use>
+      <use ng-class="{burned:map.thorax}" ng-click="map.thorax = !map.thorax" xlink:href="img/face-enfant.svg#face_thorax"></use>
+      <use ng-class="{burned:map.abdomen}" ng-click="map.abdomen = !map.abdomen" xlink:href="img/face-enfant.svg#face_abdomen"></use>
+      <use ng-class="{burned:map.genital}" ng-click="map.genital = !map.genital" xlink:href="img/face-enfant.svg#face_genital"></use>
+      <use ng-class="{burned:map.face_bras_g}" ng-click="map.face_bras_g = !map.face_bras_g" xlink:href="img/face-enfant.svg#face_bras_g"></use>
+      <use ng-class="{burned:map.face_bras_d}" ng-click="map.face_bras_d = !map.face_bras_d" xlink:href="img/face-enfant.svg#face_bras_d"></use>
+      <use ng-class="{burned:map.face_cuisse_g}" ng-click="map.face_cuisse_g = !map.face_cuisse_g" xlink:href="img/face-enfant.svg#face_cuisse_g"></use>
+      <use ng-class="{burned:map.face_tibia_g}" ng-click="map.face_tibia_g = !map.face_tibia_g" xlink:href="img/face-enfant.svg#face_tibia_g"></use>
+      <use ng-class="{burned:map.face_cuisse_d}" ng-click="map.face_cuisse_d = !map.face_cuisse_d" xlink:href="img/face-enfant.svg#face_cuisse_d"></use>
+      <use ng-class="{burned:map.face_tibia_d}" ng-click="map.face_tibia_d = !map.face_tibia_d" xlink:href="img/face-enfant.svg#face_tibia_d"></use>
+    </svg>
+    <svg class="w80" viewBox="0 0 200 515" ng-if="life.turn && life.e">
+      <use ng-class="{burned:map.dos_tete}" ng-click="map.dos_tete = !map.dos_tete" xlink:href="img/dos-enfant.svg#dos_tete"></use>
+      <use ng-class="{burned:map.dos_haut}" ng-click="map.dos_haut = !map.dos_haut" xlink:href="img/dos-enfant.svg#dos_haut"></use>
+      <use ng-class="{burned:map.dos_bas}" ng-click="map.dos_bas = !map.dos_bas" xlink:href="img/dos-enfant.svg#dos_bas"></use>
+      <use ng-class="{burned:map.dos_bras_g}" ng-click="map.dos_bras_g = !map.dos_bras_g" xlink:href="img/dos-enfant.svg#dos_bras_g"></use>
+      <use ng-class="{burned:map.dos_bras_d}" ng-click="map.dos_bras_d = !map.dos_bras_d" xlink:href="img/dos-enfant.svg#dos_bras_d"></use>
+      <use ng-class="{burned:map.dos_cuisse_g}" ng-click="map.dos_cuisse_g = !map.dos_cuisse_g" xlink:href="img/dos-enfant.svg#dos_cuisse_g"></use>
+      <use ng-class="{burned:map.dos_tibia_g}" ng-click="map.dos_tibia_g = !map.dos_tibia_g" xlink:href="img/dos-enfant.svg#dos_tibia_g"></use>
+      <use ng-class="{burned:map.dos_cuisse_d}" ng-click="map.dos_cuisse_d = !map.dos_cuisse_d" xlink:href="img/dos-enfant.svg#dos_cuisse_d"></use>
+      <use ng-class="{burned:map.dos_tibia_d}" ng-click="map.dos_tibia_d = !map.dos_tibia_d" xlink:href="img/dos-enfant.svg#dos_tibia_d"></use>
+    </svg> -->
+    
+  </div>
+  
+  <div class="col-12 relative" ng-if="life.remp">
+    <!-- <div class="box txt-warning round txt-c txt-w" ng-class="{'bg-success': life.wallace<=10, 'bg-warning': life.wallace>10&&life.wallace<=20, 'bg-danger': life.wallace>20}">
+      SCORE <br>
+      <strong class=" txt-big">{{life.wallace}}%</strong> <hr ng-if="life.wallace>10">{{life.wallace>10?(life.wallace>20?'Brulé grave':'Brulé'):''}}
+    </div> -->
+    <div class="input-group btn-base1 box">
+      <table class="col-12">
+        <tr>
+          <td class="col-2">
+            <i class="fa fa-keyboard-o fa-2x"></i>
+          </td>
+          <td>
+            Poid
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input class="col-12 txt-c input-big" type="Number" step="1" min="40" ng-model="life.poid">
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-12">&nbsp;</div>
+    
+    <div class="box bg-warning txt-warning round txt-c col-12 txt-w" ng-if="life.poid!==undefined && life.wallace!==0">
+      <table class="brd col-12">
+        <tr>
+          <th colspan="2"><h3>Cristalloïdes</h3></th>
+        </tr>
+        <tr>
+          <th>Parkland</th>
+          <td>{{4*life.wallace*life.poid}}ml de Ringer lactate</td>
+        </tr>
+        <tr>
+          <th>Brooke</th>
+          <td>{{2*life.wallace*life.poid}}ml de Ringer lactate</td>
+        </tr>
+        <tr>
+          <th colspan="2"><h3>Colloïdes</h3></th>
+        </tr>
+        <tr>
+          <th rowspan="3">Evans</th>
+          <td>{{1*life.wallace*life.poid}}ml de NaCl à 9%</td>
+        </tr>
+        <tr>
+          <td>{{2*life.wallace*life.poid}}ml de colloïde</td>
+        </tr>
+        <tr>
+          <td>2000ml/j de glucose à 5%</td>
+        </tr>
+        <tr>
+          <th rowspan="3">Brooke</th>
+          <td>{{1.5*life.wallace*life.poid}}ml de Ringer lactate</td>
+        </tr>
+        <tr>
+          <td>{{0.5*life.wallace*life.poid}}ml de colloïde</td>
+        </tr>
+        <tr>
+          <td>2000ml/j de glucose à 5%</td>
+        </tr>
+      </table>
+    </div>
+    
+    <a
+      class="big-btn btn-warning-t btn-left"
+      href=""
+      ng-click="clear()"
+      style="margin-left: 5px">
+      <div class="circle-btn">
+        <i class="fa fa-power-off fa-lg"></i>
+      </div>
+      <div class="label"><p class="txt-c">Reset</p></div>
+    </a>
+    <a
+      class="big-btn btn-base3-t btn-right"
+      href=""
+      ng-click="life.remp = !life.remp"
+      style="margin-left: 5px">
+      <div class="circle-btn">
+        <i class="fa fa-arrow-left fa-lg"></i>
+      </div>
+      <div class="label"><p class="txt-c">Score</p></div>
+    </a>
+    
+    
+  </div>
+</div>

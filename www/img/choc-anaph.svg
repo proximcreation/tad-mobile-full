@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 266.80121 251.03526"
+   height="251.03526mm"
+   width="266.80121mm">
+  <defs
+     id="defs2">
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker8027"
+       style="overflow:visible">
+      <path
+         id="path8025"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker7137"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path7135" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6997"
+       style="overflow:visible">
+      <path
+         id="path6995"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6877"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6875" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6601"
+       style="overflow:visible">
+      <path
+         id="path6599"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6471"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6469" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6363"
+       style="overflow:visible">
+      <path
+         id="path6361"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6281"
+       style="overflow:visible">
+      <path
+         id="path6279"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6189"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6187" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6119"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6117" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6033"
+       style="overflow:visible">
+      <path
+         id="path6031"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5961"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5959" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5895"
+       style="overflow:visible">
+      <path
+         id="path5893"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5833"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5831" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5363" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5733"
+       style="overflow:visible">
+      <path
+         id="path5731"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5689"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5687" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5651"
+       style="overflow:visible">
+      <path
+         id="path5649"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5366" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6189-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6187-4" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(20.686365,-19.841484)"
+     id="layer1">
+    <g
+       id="g8934">
+      <g
+         id="g4508"
+         transform="translate(11.703467,2.939955)">
+        <rect
+           y="16.901535"
+           x="75.904549"
+           height="14.566189"
+           width="53.721176"
+           id="rect4502"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <text
+           id="text4498"
+           y="22.677401"
+           x="102.84524"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="22.677401"
+             x="102.84524"
+             id="tspan4496">Atteintes cardio-vasculaire</tspan><tspan
+             id="tspan4500"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="27.638338"
+             x="102.84524">ou respiratoire</tspan></text>
+      </g>
+      <g
+         id="g4518"
+         transform="translate(61.865703,5.4100983)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4510"
+           width="10.297259"
+           height="7.7626176"
+           x="97.705223"
+           y="17.833187" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="102.84524"
+           y="22.677401"
+           id="text4516"><tspan
+             x="102.84524"
+             y="22.677401"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             id="tspan4514">non</tspan></text>
+      </g>
+      <g
+         id="g4536"
+         transform="translate(11.614751,23.576961)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4530"
+           width="10.297259"
+           height="7.7626176"
+           x="97.705223"
+           y="17.833187" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="102.84524"
+           y="22.677401"
+           id="text4534"><tspan
+             x="102.84524"
+             y="22.677401"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             id="tspan4532">oui</tspan></text>
+      </g>
+      <g
+         transform="translate(-92.983035,22.652405)"
+         id="g4528">
+        <rect
+           y="17.833187"
+           x="97.705223"
+           height="7.7626176"
+           width="10.297259"
+           id="rect4522"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <text
+           id="text4526"
+           y="22.677401"
+           x="102.84524"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan4524"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="22.677401"
+             x="102.84524">oui</tspan></text>
+      </g>
+      <g
+         id="g4546"
+         transform="translate(-92.894323,2.939955)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#df5454;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4538"
+           width="35.546848"
+           height="14.566189"
+           x="84.991714"
+           y="16.901535" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="102.84524"
+           y="22.677401"
+           id="text4544"><tspan
+             x="102.84524"
+             y="22.677401"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             id="tspan4550">Arrêt cardiaque</tspan><tspan
+             x="102.84524"
+             y="27.638338"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             id="tspan4552">(AC)</tspan></text>
+      </g>
+      <g
+         id="g4564"
+         transform="translate(11.703467,39.273693)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#e3e36b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4556"
+           width="53.397507"
+           height="18.174328"
+           x="76.066383"
+           y="16.901535" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="102.79305"
+           y="22.218386"
+           id="text4562"><tspan
+             x="102.79305"
+             y="22.218386"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             id="tspan4560">Adrénaline IM</tspan><tspan
+             x="102.79305"
+             y="27.179323"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             id="tspan4568">0.01mg/kg, max 0.5mg</tspan><tspan
+             x="102.79305"
+             y="32.140259"
+             style="font-size:2.11666656px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             id="tspan4570">autoinj. : 150µg (7.5kg à 25kg), 300µg(&gt;25kg)</tspan></text>
+      </g>
+      <g
+         transform="translate(116.65095,23.965658)"
+         id="g4601">
+        <rect
+           y="16.901535"
+           x="76.066383"
+           height="48.790398"
+           width="53.397507"
+           id="rect4591"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2d1c5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <text
+           id="text4599"
+           y="22.218386"
+           x="102.79305"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan4593"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="22.218386"
+             x="102.79305">Symptômes</tspan><tspan
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="27.179323"
+             x="102.79305"
+             id="tspan4603">gastro-intestinaux</tspan><tspan
+             id="tspan4595"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="32.140259"
+             x="102.79305">Persistants</tspan><tspan
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="37.101196"
+             x="102.79305"
+             id="tspan4605">Importants</tspan><tspan
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="42.062134"
+             x="102.79305"
+             id="tspan4607">→ d’autant plus si :</tspan><tspan
+             style="font-weight:normal;font-size:2.82222223px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="47.023071"
+             x="102.79305"
+             id="tspan4609">Allergène identifié</tspan><tspan
+             style="font-weight:normal;font-size:2.82222223px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="51.984009"
+             x="102.79305"
+             id="tspan4611">Antécédent d’asthme</tspan><tspan
+             style="font-weight:normal;font-size:2.82222223px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="56.944946"
+             x="102.79305"
+             id="tspan4613">Anaphylaxie d’asthme</tspan><tspan
+             id="tspan4597"
+             style="font-weight:normal;font-size:2.82222223px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="61.905884"
+             x="102.79305">Anaphylaxie antérieure</tspan></text>
+      </g>
+      <g
+         id="g4536-7"
+         transform="translate(61.865706,41.374533)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458329;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4530-7"
+           width="16.063274"
+           height="12.109344"
+           x="94.822212"
+           y="17.833187" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="102.75825"
+           y="22.722555"
+           id="text4534-4"><tspan
+             x="102.75825"
+             y="22.722555"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             id="tspan4532-0">oui</tspan><tspan
+             x="102.75825"
+             y="27.683493"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             id="tspan4643">discuter</tspan></text>
+      </g>
+      <g
+         id="g4667"
+         transform="translate(116.65095,91.01816)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#cc78da;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4645"
+           width="53.397507"
+           height="23.277004"
+           x="76.066383"
+           y="16.901535" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="102.68762"
+           y="22.709213"
+           id="text4665"><tspan
+             x="102.68762"
+             y="22.709213"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             id="tspan4663">Éviction de</tspan><tspan
+             x="102.68762"
+             y="27.670151"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             id="tspan4713">l’allergène</tspan><tspan
+             x="102.68762"
+             y="32.631088"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             id="tspan4715">si identifié</tspan><tspan
+             x="102.68762"
+             y="37.592026"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             id="tspan4717">ET surveillance</tspan></text>
+      </g>
+      <g
+         transform="translate(11.703467,64.450483)"
+         id="g4729">
+        <rect
+           y="16.901535"
+           x="76.066383"
+           height="18.174328"
+           width="53.397507"
+           id="rect4719"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#cc78da;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <text
+           id="text4727"
+           y="25.118813"
+           x="102.68762"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan4725"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             y="25.118813"
+             x="102.68762">Éviction de l’allergène</tspan><tspan
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             y="30.07975"
+             x="102.68762"
+             id="tspan4735">si identifié</tspan></text>
+      </g>
+      <g
+         id="g4771"
+         transform="translate(6.6817385,-13.806037)">
+        <g
+           transform="translate(-27.261492,103.43331)"
+           id="g4745">
+          <rect
+             y="16.901535"
+             x="72.591881"
+             height="8.151721"
+             width="60.346516"
+             id="rect4737"
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2d1c5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          <text
+             id="text4743"
+             y="22.363186"
+             x="102.68762"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="22.363186"
+               x="102.68762"
+               id="tspan4741">Détresse cardio-vasculaire</tspan></text>
+        </g>
+        <g
+           id="g4755"
+           transform="translate(-27.261492,111.58503)">
+          <rect
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="rect4749"
+             width="60.346516"
+             height="17.907059"
+             x="72.591881"
+             y="16.901535" />
+          <text
+             xml:space="preserve"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="102.80906"
+             y="22.363186"
+             id="text4753"><tspan
+               id="tspan4751"
+               x="102.80906"
+               y="22.363186"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px">O<tspan
+   id="tspan8479"
+   style="font-size:1.76388884px;text-align:center;baseline-shift:sub;text-anchor:middle">2</tspan> (S<tspan
+   id="tspan8485"
+   style="font-size:1.76388884px;text-align:center;baseline-shift:sub;text-anchor:middle">p</tspan>O<tspan
+   id="tspan8489"
+   style="font-size:1.76388884px;text-align:center;baseline-shift:sub;text-anchor:middle">2</tspan> &gt; 95%)</tspan><tspan
+               id="tspan4757"
+               x="102.80906"
+               y="27.324123"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px">Trendelenburg</tspan><tspan
+               id="tspan4759"
+               x="102.80906"
+               y="32.285061"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px">Sérum salé isotonique 20mL/kg</tspan></text>
+        </g>
+      </g>
+      <g
+         transform="translate(73.175457,-13.806037)"
+         id="g4793">
+        <g
+           id="g4779"
+           transform="translate(-27.261492,103.43331)">
+          <rect
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2d1c5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="rect4773"
+             width="60.346516"
+             height="8.151721"
+             x="72.591881"
+             y="16.901535" />
+          <text
+             xml:space="preserve"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="102.68762"
+             y="22.363186"
+             id="text4777"><tspan
+               id="tspan4775"
+               x="102.68762"
+               y="22.363186"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">Détresse respiratoire</tspan></text>
+        </g>
+        <g
+           transform="translate(-27.261492,111.58503)"
+           id="g4791">
+          <rect
+             y="16.901535"
+             x="72.591881"
+             height="17.907059"
+             width="60.346516"
+             id="rect4781"
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          <text
+             id="text4789"
+             y="24.688038"
+             x="102.68591"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="24.688038"
+               x="102.68591"
+               id="tspan4783">O2 (SpO2 &gt; 95%)</tspan><tspan
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="29.648975"
+               x="102.68591"
+               id="tspan4787">Position demi-assise</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g5239"
+         transform="translate(-1.0874087,-16.274551)">
+        <g
+           transform="translate(57.139285,35.529762)"
+           id="g4815">
+          <g
+             id="g4803"
+             transform="translate(-27.261492,103.43331)">
+            <rect
+               style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2d1c5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+               id="rect4797"
+               width="32.376278"
+               height="11.364519"
+               x="86.576996"
+               y="16.901535" />
+            <text
+               xml:space="preserve"
+               style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="102.68762"
+               y="21.14719"
+               id="text4801"><tspan
+                 id="tspan4799"
+                 x="102.68762"
+                 y="21.14719"
+                 style="font-weight:bold;font-size:3.17499995px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">Voies aériennes</tspan><tspan
+                 id="tspan4817"
+                 x="102.68762"
+                 y="26.108128"
+                 style="font-weight:bold;font-size:3.17499995px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">supérieures</tspan></text>
+          </g>
+          <g
+             transform="translate(-27.261492,114.79783)"
+             id="g4813">
+            <rect
+               y="16.901535"
+               x="86.576996"
+               height="11.481463"
+               width="32.376278"
+               id="rect4805"
+               style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+            <text
+               id="text4811"
+               y="21.569735"
+               x="102.75308"
+               style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               xml:space="preserve"><tspan
+                 style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px"
+                 y="21.569735"
+                 x="102.75308"
+                 id="tspan4809">Aérosol</tspan><tspan
+                 id="tspan4821"
+                 style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px"
+                 y="26.530672"
+                 x="102.75308">adréline</tspan></text>
+          </g>
+        </g>
+        <g
+           id="g4843"
+           transform="translate(91.386454,35.529762)">
+          <g
+             transform="translate(-27.261492,103.43331)"
+             id="g4831">
+            <rect
+               y="16.901535"
+               x="86.576996"
+               height="11.364519"
+               width="32.376278"
+               id="rect4823"
+               style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2d1c5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+            <text
+               id="text4829"
+               y="21.14719"
+               x="102.68762"
+               style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               xml:space="preserve"><tspan
+                 style="font-weight:bold;font-size:3.17499995px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+                 y="21.14719"
+                 x="102.68762"
+                 id="tspan4825">Voies aériennes</tspan><tspan
+                 style="font-weight:bold;font-size:3.17499995px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+                 y="26.108128"
+                 x="102.68762"
+                 id="tspan4827">inférieures</tspan></text>
+          </g>
+          <g
+             id="g4841"
+             transform="translate(-27.261492,114.79783)">
+            <rect
+               style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+               id="rect4833"
+               width="32.376278"
+               height="11.481463"
+               x="86.576996"
+               y="16.901535" />
+            <text
+               xml:space="preserve"
+               style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="102.75308"
+               y="21.569735"
+               id="text4839"><tspan
+                 id="tspan4835"
+                 x="102.75308"
+                 y="21.569735"
+                 style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px">Aérosol</tspan><tspan
+                 x="102.75308"
+                 y="26.530672"
+                 style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.26458332px"
+                 id="tspan4837">β2-mimétiques</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g4869"
+         transform="translate(-4.371162,-22.743306)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#baeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4737-5"
+           width="60.346516"
+           height="8.151721"
+           x="56.383289"
+           y="162.33336" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="86.479034"
+           y="167.79501"
+           id="text4743-8"><tspan
+             id="tspan4741-2"
+             x="86.479034"
+             y="167.79501"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">Pas de réponse à 5-10min</tspan></text>
+      </g>
+      <g
+         transform="translate(-63.02567,97.843701)"
+         id="g4528-4">
+        <rect
+           y="17.833187"
+           x="97.705223"
+           height="7.7626176"
+           width="10.297259"
+           id="rect4522-6"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <text
+           id="text4526-2"
+           y="22.677401"
+           x="102.84524"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan4524-8"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="22.677401"
+             x="102.84524">x1</tspan></text>
+      </g>
+      <g
+         transform="translate(-92.894325,36.26691)"
+         id="g4927">
+        <rect
+           y="16.901535"
+           x="84.991714"
+           height="24.187893"
+           width="35.546848"
+           id="rect4919"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#e3e36b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <text
+           id="text4925"
+           y="22.677401"
+           x="102.84524"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan4923"
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="22.677401"
+             x="102.84524">Appliquer les</tspan><tspan
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="27.638338"
+             x="102.84524"
+             id="tspan4931">recommandations</tspan><tspan
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="32.599274"
+             x="102.84524"
+             id="tspan4933">sur la prise en</tspan><tspan
+             style="font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="37.560211"
+             x="102.84524"
+             id="tspan4935">charge de l’AC</tspan></text>
+      </g>
+      <g
+         id="g4949"
+         transform="translate(-92.894325,92.834507)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#cc78da;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4937"
+           width="35.546848"
+           height="19.64431"
+           x="84.991714"
+           y="16.901535" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="102.84524"
+           y="22.677401"
+           id="text4947"><tspan
+             id="tspan4945"
+             x="102.84524"
+             y="22.677401"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px">Éviction de</tspan><tspan
+             x="102.84524"
+             y="27.638338"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             id="tspan4960">l’allergène</tspan><tspan
+             x="102.84524"
+             y="32.599274"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#ffffff;stroke:none;stroke-width:0.26458332px"
+             id="tspan4962">si identifié</tspan></text>
+      </g>
+      <g
+         id="g5261"
+         transform="translate(-13.08074,-19.243406)">
+        <g
+           transform="translate(-53.053006,172.72293)"
+           id="g4949-9">
+          <rect
+             y="16.901535"
+             x="82.089928"
+             height="34.344131"
+             width="96.402458"
+             id="rect4937-6"
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#e3e36b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458335;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          <text
+             id="text4947-0"
+             y="22.677401"
+             x="102.84093"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               id="tspan4962-1"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="22.677401"
+               x="102.84093">Adréline IV direct</tspan><tspan
+               id="tspan4999"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="27.638338"
+               x="102.84093">ou continue (IVSE)</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="102.69279"
+             y="36.040878"
+             id="text5016"><tspan
+               x="102.69279"
+               y="36.040878"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               id="tspan5014">± Poursuite de</tspan><tspan
+               id="tspan5020"
+               x="102.69279"
+               y="41.001816"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">l’expansion volémique</tspan></text>
+        </g>
+        <g
+           id="g5036"
+           transform="translate(-11.702596,172.72293)">
+          <rect
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="rect5022"
+             width="53.808807"
+             height="16.263578"
+             x="82.79863"
+             y="17.302439" />
+          <text
+             xml:space="preserve"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="109.67883"
+             y="23.980339"
+             id="text5028"><tspan
+               id="tspan5060"
+               x="109.67883"
+               y="23.980339"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">Titration : <tspan
+   id="tspan5062"
+   style="font-weight:normal">bolus 1-2 min</tspan></tspan><tspan
+               id="tspan5054"
+               x="109.67883"
+               y="28.941277"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">adulte 50µg - enfant 1µg/kg</tspan></text>
+        </g>
+        <g
+           id="g5036-7"
+           transform="translate(-11.702596,195.84174)">
+          <rect
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="rect5022-7"
+             width="53.808807"
+             height="16.477503"
+             x="82.79863"
+             y="11.248449" />
+          <text
+             xml:space="preserve"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="109.6616"
+             y="15.52212"
+             id="text5028-2"><tspan
+               x="110.27483"
+               y="15.52212"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               id="tspan5026-6">IVSE : </tspan><tspan
+               id="tspan5054-2"
+               x="109.6616"
+               y="20.483059"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">adulte 0,05-0,1µg/kg⋅min</tspan><tspan
+               id="tspan5110"
+               x="109.6616"
+               y="25.443996"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">enfant 0,1µg/kg⋅min</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g5349"
+         transform="translate(-7.7119116)">
+        <g
+           id="g5123"
+           transform="translate(-14.687225,53.149437)">
+          <rect
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#baeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="rect5117"
+             width="56.247372"
+             height="8.151721"
+             x="58.432858"
+             y="162.33336" />
+          <text
+             xml:space="preserve"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="86.479034"
+             y="167.79501"
+             id="text5121"><tspan
+               id="tspan5119"
+               x="86.479034"
+               y="167.79501"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">Pas de réponse</tspan></text>
+        </g>
+        <g
+           transform="translate(-14.687225,67.982896)"
+           id="g5143">
+          <rect
+             y="162.33336"
+             x="58.432861"
+             height="12.828938"
+             width="56.247379"
+             id="rect5137"
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#e3e36b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          <text
+             id="text5141"
+             y="167.31122"
+             x="86.632339"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="167.31122"
+               x="86.632339"
+               id="tspan5139">Adrénaline IV continue</tspan><tspan
+               id="tspan5145"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="172.27216"
+               x="86.632339">→ Appel rénimateur</tspan></text>
+        </g>
+        <g
+           transform="translate(-14.687225,95.51438)"
+           id="g5153">
+          <rect
+             y="162.33336"
+             x="58.432861"
+             height="13.028991"
+             width="56.247379"
+             id="rect5147"
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458335;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          <text
+             id="text5151"
+             y="167.79501"
+             x="86.479034"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="167.79501"
+               x="86.479034"
+               id="tspan5149">↑ des posologies d’adreline</tspan><tspan
+               id="tspan5155"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="172.75595"
+               x="86.479034">±Noradréline IVSE</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g4869-6"
+         transform="translate(62.122556,53.149429)">
+        <rect
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#baeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="rect4737-5-0"
+           width="60.346516"
+           height="8.151721"
+           x="56.383289"
+           y="162.33336" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="86.479034"
+           y="167.79501"
+           id="text4743-8-6"><tspan
+             id="tspan4741-2-6"
+             x="86.479034"
+             y="167.79501"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">Pas de réponse</tspan></text>
+      </g>
+      <g
+         transform="translate(62.122552,67.982892)"
+         id="g5167">
+        <rect
+           y="162.33336"
+           x="56.383297"
+           height="12.828938"
+           width="60.346504"
+           id="rect5159"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#e3e36b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <text
+           id="text5165"
+           y="167.31122"
+           x="86.632339"
+           style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan5163"
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="167.31122"
+             x="86.632339">Discuter</tspan><tspan
+             style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+             y="172.27216"
+             x="86.632339"
+             id="tspan5181">nouvelle adrénaline IM</tspan></text>
+      </g>
+      <g
+         id="g5215"
+         transform="translate(-16.063988,-22.06667)">
+        <g
+           id="g5177"
+           transform="translate(78.18654,104.55206)">
+          <rect
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458335;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             id="rect5169"
+             width="60.346504"
+             height="8.0208063"
+             x="56.383297"
+             y="167.34154" />
+          <text
+             xml:space="preserve"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="86.479034"
+             y="172.42522"
+             id="text5175"><tspan
+               x="86.479034"
+               y="172.42522"
+               style="font-weight:normal;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               id="tspan5173">Poursuite des aérosols</tspan></text>
+        </g>
+        <g
+           transform="translate(78.18654,117.58105)"
+           id="g5191">
+          <rect
+             y="162.33336"
+             x="56.383297"
+             height="13.028991"
+             width="60.346504"
+             id="rect5183"
+             style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458335;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          <text
+             id="text5189"
+             y="167.79501"
+             x="86.479034"
+             style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               id="tspan5187"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="167.79501"
+               x="86.479034">→ Appel réanimateur</tspan><tspan
+               id="tspan5197"
+               style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+               y="172.75595"
+               x="86.479034">Anticiper <tspan
+   id="tspan5199"
+   style="font-weight:normal">l’abord sous-glottique</tspan></tspan></text>
+        </g>
+      </g>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 87.608014,27.124583 H 27.64424"
+         id="path5351" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 141.3292,27.124583 18.24172,1.1e-5"
+         id="path5353" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="m 169.86818,27.124594 49.54791,1e-6 v 13.742598"
+         id="path5355" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 114.46861,34.407678 v 7.002471"
+         id="path5639" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5651)"
+         d="m 114.4686,49.172764 v 7.002463"
+         id="path5641" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 192.71733,65.262391 H 172.75119"
+         id="path5677" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5689)"
+         d="M 156.68792,65.262391 H 141.16736"
+         id="path5679" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#marker5733)"
+         d="m 39.828181,123.4395 v 46.94156"
+         id="path5723" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 52.012127,143.66591 H 39.828181"
+         id="path5821" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5833)"
+         d="M 39.828181,115.67689 V 65.262392 H 87.76985"
+         id="path5823" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 9.8708174,34.407678 -1.3e-6,6.077913"
+         id="path5883" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5895)"
+         d="m 9.8708161,48.24821 -4.5e-6,4.920233"
+         id="path5885" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5961)"
+         d="M 9.8708116,77.356337 V 109.73604"
+         id="path5951" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6033)"
+         d="m 114.46861,74.349556 v 7.00246"
+         id="path6023" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6119)"
+         d="m 97.36518,99.526345 v 7.002465"
+         id="path6101" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6189)"
+         d="m 131.57203,99.526345 v 7.002465"
+         id="path6103" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6363)"
+         d="m 131.55552,132.06618 v 7.00246"
+         id="path6269" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6281)"
+         d="m 165.80269,132.06618 v 7.00246"
+         id="path6271" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 131.55552,162.43604 v 53.04674"
+         id="path6461" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 165.80269,162.43604 v 53.04674"
+         id="path6569" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6471)"
+         d="m 131.55552,223.63451 v 6.68174"
+         id="path6583" />
+      <path
+         id="path6597"
+         d="m 165.80269,223.63451 v 6.68174"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6601)" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6877)"
+         d="m 148.6791,243.14518 v 6.68175"
+         id="path6867" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6997)"
+         d="m 64.157407,204.72519 v 10.23619"
+         id="path6987" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 64.157407,223.63451 5e-6,6.68174"
+         id="path7125" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker7137)"
+         d="m 64.157412,243.14519 v 14.70255"
+         id="path7127" />
+      <path
+         id="path8023"
+         d="m 82.185387,132.58759 v 7.00246"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8027)" />
+      <rect
+         y="-20.686365"
+         x="-99.526344"
+         height="8.151721"
+         width="79.68486"
+         id="rect4737-5-9"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#baeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         transform="rotate(-90)" />
+      <text
+         id="text4743-8-0"
+         y="-15.580422"
+         x="-59.798462"
+         style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"
+         transform="rotate(-90)"><tspan
+           style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px"
+           y="-15.580422"
+           x="-59.798462"
+           id="tspan4741-2-9">1ère ligne thérapeutique</tspan></text>
+      <rect
+         transform="rotate(-90)"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#baeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="rect7616"
+         width="169.93298"
+         height="8.151721"
+         x="-270.87674"
+         y="-20.686365" />
+      <text
+         transform="rotate(-90)"
+         xml:space="preserve"
+         style="font-size:9.921875px;line-height:0.5em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-140.90073"
+         y="-15.580422"
+         id="text7620"><tspan
+           id="tspan7618"
+           x="-140.90073"
+           y="-15.580422"
+           style="font-weight:bold;font-size:3.52777767px;line-height:10.00000015%;fill:#000000;stroke:none;stroke-width:0.26458332px">2ème ligne</tspan></text>
+      <path
+         id="path6103-5"
+         d="M 219.41609,89.657586 V 107.91969"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6189-9)" />
+    </g>
+  </g>
+</svg>
