@@ -50091,23 +50091,21 @@
 /***/ (function(module, exports) {
 
 	module.exports = function () {
-	    var mobApp = {
-	        initialize: function () {
-	            this.bindEvents();
-	            console.log('test');
-	        },
-	        bindEvents: function () {
-	            document.addEventListener('deviceready', this.onDeviceReady, true);
-	        },
-
-	        onDeviceReady: function () {
-	            console.log(StatusBar);
-	            angular.element(document).ready(function () {
-	                angular.bootstrap(document);
-	            });
-	        }
-	    };
-	    return mobApp;
+	  var mobApp = {
+	    initialize: function () {
+	      this.bindEvents();
+	    },
+	    bindEvents: function () {
+	      document.addEventListener('deviceready', this.onDeviceReady, true);
+	    },
+	    onDeviceReady: function () {
+	      StatusBar.hide();
+	      angular.element(document).ready(function () {
+	        angular.bootstrap(document);
+	      });
+	    }
+	  };
+	  return mobApp;
 	}();
 
 /***/ }),
@@ -51438,7 +51436,7 @@
 	    console.log('ok');
 	  };
 	  var dec = function (n, d) {
-	    return Math.ceil(n * d) / d;
+	    return Math.round(n * d) / d;
 	  };
 	  $scope.dec = dec;
 	  var init = function () {
@@ -51651,7 +51649,7 @@
 	          l: 'IM : ',
 	          cls: 'txt-r txt-w',
 	          v: function () {
-	            return ($scope.life.poid > 7.5 ? ($scope.life.poid > 7.5 && $scope.life.poid <= 25 ? '**AIA 150µg**' : '**AIA 300µg**') + ' - 5 à 10 min' : '') + '<br> 0,01mg/kg soit **' + Math.min(0.5, dec($scope.life.poid * 0.01, 100)) + 'mg** (non dilué, seringue de 1mL = 1mg)';
+	            return ($scope.life.poid > 7.5 ? ($scope.life.poid > 7.5 && $scope.life.poid <= 25 ? '**AIA 150µg**' : '**AIA 300µg**') + ' - 5 à 10 min<br> ' : '') + '0,01mg/kg soit **' + Math.min(0.5, dec($scope.life.poid * 0.01, 100)) + 'mg** (non dilué, seringue de 1mL = 1mg)';
 	          }
 	        }, {
 	          l: 'IV : ',
