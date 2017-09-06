@@ -1,0 +1,23 @@
+{
+    "name": "com.tad.full",
+    "version": "1.0.2",
+    "displayName": "TAD",
+    "cordova": {
+        "platforms": [
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-device": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "~4.4.0",
+        "cordova-plugin-device": "~1.1.1",
+        "cordova-plugin-splashscreen": "~3.2.1",
+        "cordova-plugin-statusbar": "~2.1.2"
+    }
+}

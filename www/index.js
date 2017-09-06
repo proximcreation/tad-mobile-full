@@ -53,8 +53,9 @@
 	  var _ = __webpack_require__(38);
 	  __webpack_require__(40);
 
-	  var mobApp = __webpack_require__(43);
+	  // var mobApp = require('./js/mobile-app.js');
 
+	  __webpack_require__(43);
 	  __webpack_require__(44);
 	  __webpack_require__(45);
 	  __webpack_require__(46);
@@ -62,9 +63,8 @@
 	  __webpack_require__(48);
 	  __webpack_require__(49);
 	  __webpack_require__(50);
-	  __webpack_require__(51);
 
-	  mobApp.initialize();
+	  // mobApp.initialize();
 	}();
 
 /***/ }),
@@ -50091,28 +50091,6 @@
 /***/ (function(module, exports) {
 
 	module.exports = function () {
-	  var mobApp = {
-	    initialize: function () {
-	      this.bindEvents();
-	    },
-	    bindEvents: function () {
-	      document.addEventListener('deviceready', this.onDeviceReady, true);
-	    },
-	    onDeviceReady: function () {
-	      StatusBar.hide();
-	      angular.element(document).ready(function () {
-	        angular.bootstrap(document);
-	      });
-	    }
-	  };
-	  return mobApp;
-	}();
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports) {
-
-	module.exports = function () {
 		var app = angular.module('app', ['ngRoute', 'LocalStorageModule', 'hc.marked']);
 
 		app.config(['$routeProvider', '$locationProvider', '$compileProvider', function ($routeProvider, $locationProvider, $compileProvider) {
@@ -50159,10 +50137,10 @@
 	}();
 
 /***/ }),
-/* 45 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var app = __webpack_require__(44);
+	var app = __webpack_require__(43);
 	app.controller('CoreCtrl', ['$scope', '$http', 'localStorageService', function ($scope, $http, localStorageService) {
 
 	  var ls = localStorageService;
@@ -50177,20 +50155,20 @@
 	}]);
 
 /***/ }),
-/* 46 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var app = __webpack_require__(44);
+	var app = __webpack_require__(43);
 	app.controller('HomeCtrl', ['$scope', '$http', function ($scope, $http) {
 
 	  $scope.new = {};
 	}]);
 
 /***/ }),
-/* 47 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var app = __webpack_require__(44);
+	var app = __webpack_require__(43);
 	app.controller('TclCtrl', ['$scope', '$http', function ($scope, $http) {
 
 	  $scope.reset = function () {
@@ -50620,10 +50598,10 @@
 	}]);
 
 /***/ }),
-/* 48 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var app = __webpack_require__(44);
+	var app = __webpack_require__(43);
 	app.controller('NihssCtrl', ['$scope', '$http', function ($scope, $http) {
 
 	  $scope.reset = function () {
@@ -51226,10 +51204,10 @@
 	}]);
 
 /***/ }),
-/* 49 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var app = __webpack_require__(44);
+	var app = __webpack_require__(43);
 	app.controller('WellsCtrl', ['$scope', '$http', function ($scope, $http) {
 
 	  $scope.reset = function () {
@@ -51354,10 +51332,10 @@
 	}]);
 
 /***/ }),
-/* 50 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var app = __webpack_require__(44);
+	var app = __webpack_require__(43);
 	app.controller('WallasCtrl', ['$scope', '$http', function ($scope, $http) {
 
 	  $scope.reset = function () {
@@ -51418,10 +51396,10 @@
 	}]);
 
 /***/ }),
-/* 51 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var app = __webpack_require__(44);
+	var app = __webpack_require__(43);
 	app.controller('MemoPediaCtrl', ['$scope', '$http', function ($scope, $http) {
 
 	  // $scope.img = function(img){
