@@ -3,11 +3,13 @@ var mobApp = {
     this.bindEvents();
   },
   bindEvents: function() {
-    document.addEventListener('click', this.onDeviceReady, true);
+    document.addEventListener('deviceready', this.onDeviceReady, true);
   },
   onDeviceReady: function() {
     console.log('device ready');
-    StatusBar.hide();
+    StatusBar.overlaysWebView(false);
+    StatusBar.backgroundColorByHexString("#ffffff");
+    // StatusBar.hide();
     // angular.element(document).ready(function() {
     //     angular.bootstrap(document);
     // });
