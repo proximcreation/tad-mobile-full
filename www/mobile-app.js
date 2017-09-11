@@ -8,10 +8,7 @@ var mobApp = {
   onDeviceReady: function() {
     console.log('device ready');
     StatusBar.overlaysWebView(false);
-    StatusBar.backgroundColorByHexString("#ffffff");
-    // StatusBar.hide();
-    // angular.element(document).ready(function() {
-    //     angular.bootstrap(document);
-    // });
+    StatusBar.backgroundColorByName('black');
+    // StatusBar.styleBlackTranslucent();
   }
 };
