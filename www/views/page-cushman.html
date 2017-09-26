@@ -1,12 +1,12 @@
 <header class="row">
-  <h1 class="col-10"><i class="fa fa-user-md"></i>&nbsp;Table de Wallace</h1>
+  <h1 class="col-10"><i class="fa fa-user-md"></i>&nbsp;Score de Malinas</h1>
   <div class="menu-btn fr btn-base3 box clickable" ng-click="life.showMenu=true">
     <i class="fa fa-bars"></i>
   </div>
 </header>
-<div class="max-col-6" ng-include="'views/includes/wallas/intro.html'" ng-if="life.state == -1"></div>
+<div class="max-col-6" ng-include="'views/includes/cushman/intro.html'" ng-if="life.state == -1"></div>
 <div class="max-col-6" ng-include="'views/includes/common/running.html'" ng-if="life.state >= 0"></div>
-<div class="fix-tr col-6 fixed-menu" ng-include="'views/includes/wallas/menu.html'" ng-if="life.showMenu"></div>
+<div class="fix-tr col-6 fixed-menu" ng-include="'views/includes/tcl/menu.html'" ng-if="life.showMenu"></div>
 <div class="fix-hv col-9 modal" ng-if="life.modal!==undefined">
   <div class="box col-12">
     <h4 class="txt-b txt-c">{{life.modal.title}}</h4>

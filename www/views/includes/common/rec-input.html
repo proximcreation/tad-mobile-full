@@ -75,8 +75,8 @@
         SCORE <br>
         <strong class=" txt-big">{{life.wallace}}%</strong> <hr style="border-color: #fff" ng-if="life.wallace>10">{{life.wallace>10?(life.wallace>20?'Brulé grave':'Brulé'):''}}
         <div ng-if="life.poid!==undefined">
-          <hr style="border-color: #fff">Sc = {{dec((4*life.poid+7)/(90+life.poid), 1000)}} m²
-          <br><strong class="txt-danger">Sb = {{dec((4*life.poid+7)/(90+life.poid)*life.wallace/100, 1000)}} m²</strong>
+          <hr style="border-color: #fff">Sc = {{life.sc}} m²
+          <br><strong class="txt-danger">Sb = {{life.sb}} m²</strong>
         </div>
       </div>
     </div>
@@ -102,10 +102,10 @@
     </a> -->
     
     <svg class="w80" viewBox="0 0 200 515" ng-if="!life.turn && !life.e">
-      <use ng-repeat="(k,p) in wallasTab.face" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/face.svg#{{k}}"></use>
+      <use ng-repeat="(k,p) in wallasTab.face" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/face-cplx.svg#{{k}}"></use>
     </svg>
     <svg class="w80" viewBox="0 0 200 515" ng-if="life.turn && !life.e">
-      <use ng-repeat="(k,p) in wallasTab.dos" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/dos.svg#{{k}}"></use>
+      <use ng-repeat="(k,p) in wallasTab.dos" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/dos-cplx.svg#{{k}}"></use>
     </svg>
     <svg class="w80" viewBox="0 0 200 515" ng-if="!life.turn && life.e">
       <use ng-repeat="(k,p) in wallasTab.face" ng-class="{burned:map[k]}" ng-click="map[k] = !map[k]" xlink:href="" ng-href="img/face-enfant-cplx.svg#{{k}}"></use>
