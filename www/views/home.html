@@ -1,58 +1,161 @@
 
 <div class="txt-c max-col-6">
-  <div class="row">
+  <div class="row" ng-class="{'bgw':life.show!==''}" ng-init="life.show=''" >
     <h1>TAD</h1>
     <p ng-if="freeversion"><i>(version gratuite)</i></p>
     <p>assistant de diagnostic</p>
-    <hr class="col-12 ">
-    <h3 class="col-ol-1 col-11 txt-l">Pédiatrie</h3>
-    <div  class="col-12 txt-w flex">
+    
+    <a
+    class="home-btn btn-info"
+    href=""
+    ng-click="life.show=''"
+    ng-if="life.show!==''"
+    ><strong>Catégories</strong></a>
+    <hr ng-if="life.show==''" class="col-12 ">
+    <h3 ng-if="life.show==''">Catégories</h3>
+    <div class="col-12 txt-w flex category" ng-if="life.show==''">
       <a
-        class="home-btn lnk-clr btn-base1 box round"
-        href="#!/memo-pedia"><strong>Mémo <br>pédiatrique</strong></a>
+      class="home-btn"
+      ng-class="{'btn-info':life.show!=='cardio', 'btn-base3':life.show=='cardio'}"
+      href=""
+      ng-click="life.show='cardio'"
+      ><strong>Cardiologie</strong></a>
+      <a
+      class="home-btn"
+      ng-class="{'btn-info':life.show!=='neuro', 'btn-base3':life.show=='neuro'}"
+      href=""
+      ng-click="life.show='neuro'"
+      ><strong>Neurologie</strong></a>
+      <a
+      class="home-btn"
+      ng-class="{'btn-info':life.show!=='pedia', 'btn-base3':life.show=='pedia'}"
+      href=""
+      ng-click="life.show='pedia'"
+      ><strong>Pédiatrie</strong></a>
+      <a
+      class="home-btn"
+      ng-class="{'btn-info':life.show!=='trombo', 'btn-base3':life.show=='trombo'}"
+      href=""
+      ng-click="life.show='trombo'"
+      ><strong>Trombo <br>embologie</strong></a>
+      <a
+      class="home-btn"
+      ng-class="{'btn-info':life.show!=='gyneco', 'btn-base3':life.show=='gyneco'}"
+      href=""
+      ng-click="life.show='gyneco'"
+      ><strong>Gynéco <br>obstétrique</strong></a>
+      <a
+      class="home-btn"
+      ng-class="{'btn-info':life.show!=='toxico', 'btn-base3':life.show=='toxico'}"
+      href=""
+      ng-click="life.show='toxico'"
+      ><strong>Toxicologie</strong></a>
+      <a
+      class="home-btn"
+      ng-class="{'btn-info':life.show!=='traumato', 'btn-base3':life.show=='traumato'}"
+      href=""
+      ng-click="life.show='traumato'"
+      ><strong>Traumatologie</strong></a>
+      <a
+      class="home-btn"
+      ng-class="{'btn-info':life.show!=='pneumo', 'btn-base3':life.show=='pneumo'}"
+      href=""
+      ng-click="life.show='pneumo'"
+      ><strong>Pneumologie</strong></a>
+      <a
+      class="home-btn"
+      ng-class="{'btn-success':life.show!=='traumato', 'btn-base3':life.show=='traumato'}"
+      href=""
+      ng-click="life.show='all'"
+      ><strong>tous les outils</strong></a>
     </div>
     
     
-    <hr class="col-12 ">
-    <h3 class="col-ol-1 col-11 txt-l">Adulte</h3>
     
-    <div class="col-12 txt-w flex">
+    <!--  CARDIO =========================================================== -->
+    <hr class="col-12" ng-if="life.show=='cardio' || life.show=='all'">
+    <h3 ng-if="life.show=='cardio' || life.show=='all'">Cardiologie</h3>
+    <div  class="col-12 txt-w flex tools" ng-if="life.show=='cardio' || life.show=='all'">
       <a
-      class="home-btn lnk-clr btn-base3 box round"
+      class="home-btn"
+      href="#!/hearts3"><strong>Score HEARTS3</strong></a>
+      
+    </div>
+    <!-- ======================================================== END PEDIA -->
+    <!--  PEDIA =========================================================== -->
+    <hr class="col-12" ng-if="life.show=='pedia' || life.show=='all'">
+    <h3 ng-if="life.show=='pedia' || life.show=='all'">Pédiatrie</h3>
+    <div  class="col-12 txt-w flex tools" ng-if="life.show=='pedia' || life.show=='all'">
+      <a
+      class="home-btn"
+      href="#!/memo-pedia"><strong>Mémo <br>pédiatrique</strong></a>
+      
+    </div>
+    <!-- ======================================================== END PEDIA -->
+    <!-- NEURO ============================================================ -->
+    <hr class="col-12" ng-if="life.show=='neuro' || life.show=='all'">
+    <h3 ng-if="life.show=='neuro' || life.show=='all'">Neurologie</h3>
+    <div  class="col-12 txt-w flex tools" ng-if="life.show=='neuro' || life.show=='all'">
+      <a
+      class="home-btn"
       href="#!/tcl"><strong>Glasgow</strong><hr><span class="txt-tiny">Traum. crânien léger</span></a>
 
       <a
-      class="home-btn lnk-clr btn-base3 box round"
+      class="home-btn"
       href="#!/nihss"><strong>NIHSS</strong><hr><span class="txt-tiny">A.V.C.</span></a>
-
+      
     </div>
-    
-    <div class="col-12 txt-w flex">
+    <!-- ======================================================== END NEURO -->
+    <!-- TROMBO-EMBOLIQUE ================================================= -->
+    <hr class="col-12" ng-if="life.show=='trombo' || life.show=='all'">
+    <h3 ng-if="life.show=='trombo' || life.show=='all'">Trombo-embologie</h3>
+    <div  class="col-12 txt-w flex tools" ng-if="life.show=='trombo' || life.show=='all'">
       <a
-      class="home-btn lnk-clr btn-base3 box round"
-      href="#!/wells"><strong>Wells</strong><hr><span class="txt-tiny">Phlébite</span></a>
-
+      class="home-btn btn-base1"
+      href="#!/wells"><strong>Wells (simple)</strong><hr><span class="txt-tiny">Phlébite</span></a>
+      
+    </div>
+    <!-- ======================================================= END TROMBO -->
+    <!-- GYNECO-OBSTÉTRIQUE -->
+    <hr class="col-12" ng-if="life.show=='gyneco' || life.show=='all'">
+    <h3 ng-if="life.show=='gyneco' || life.show=='all'">Gynéco-obstétrique</h3>
+    <div  class="col-12 txt-w flex tools" ng-if="life.show=='gyneco' || life.show=='all'">
       <a
-      class="home-btn lnk-clr btn-base3 box round"
+      class="home-btn"
       href="#!/malinas"><strong>Malinas</strong><hr><span class="txt-tiny">Accouchement</span></a>
-
+      
     </div>
-    
-    <div class="col-12 txt-w flex">
+    <!-- ======================================================= END GYNECO -->
+    <!-- TOXICOLOGIE ====================================================== -->
+    <hr class="col-12" ng-if="life.show=='toxico' || life.show=='all'">
+    <h3 ng-if="life.show=='toxico' || life.show=='all'">Toxicologie</h3>
+    <div  class="col-12 txt-w flex tools" ng-if="life.show=='toxico' || life.show=='all'">
       <a
-      class="home-btn lnk-clr btn-base3 box round"
+      class="home-btn"
       href="#!/cushman"><strong>Cushman</strong><hr><span class="txt-tiny">Seuvrage alcoolique</span></a>
-
+      
+    </div>
+    <!-- ======================================================= END TOXICO -->
+    <!-- TRAUMATO ==========================================================-->
+    <hr class="col-12" ng-if="life.show=='traumato' || life.show=='all'">
+    <h3 ng-if="life.show=='traumato' || life.show=='all'">Traumatologie</h3>
+    <div  class="col-12 txt-w flex tools" ng-if="life.show=='traumato' || life.show=='all'">
       <a
-      class="home-btn lnk-clr btn-base3 box round"
+      class="home-btn"
       href="#!/wallas"><strong>Wallace</strong><hr><span class="txt-tiny">Grands brulés</span></a>
-
+      
     </div>
-    <div class="col-12 txt-w flex">
+    <!-- ===================================================== END TRAUMATO -->
+    <!-- PNEUMO ============================================================-->
+    <hr class="col-12" ng-if="life.show=='pneumo' || life.show=='all'">
+    <h3 ng-if="life.show=='pneumo' || life.show=='all'">Pneumologie</h3>
+    <div  class="col-12 txt-w flex tools" ng-if="life.show=='pneumo' || life.show=='all'">
       <a
-      class="home-btn lnk-clr btn-info box round"
-      href="#!/"><strong>...</strong><hr><span class="txt-tiny">prochainement</span></a>
-
+      class="home-btn"
+      href="#!/legall"><strong>Le Gall</strong><hr><span class="txt-tiny">(score de Genève révisé)</span></a>
+      
     </div>
+    <!-- ======================================================= END PNEUMO -->
+
   </div>
 </div>
