@@ -51934,7 +51934,7 @@
 	              scoreDisp += '<hr>État clinique<br>**MODÉRÉ**<br>Évolution incertaine';
 	              this.cssCls = 'bg-warning txt-w';
 	            } else if (score > 14) {
-	              scoreDisp += '<hr>**SEUVRAGE SÉVÈRE**';
+	              scoreDisp += '<hr>**SEVRAGE SÉVÈRE**';
 	              this.cssCls = 'bg-danger txt-w';
 	            }
 	          }
